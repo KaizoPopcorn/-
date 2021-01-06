@@ -15,9 +15,9 @@ const info = require("./lib/info.js");
 /////////////////
 const BotName = 'POPCORN BOT☄'; 
 const instagram = 'https://instagram.com/hell0danial._'; 
-const telegram = 'https://t.me/reuzzz'; 
+const telegram = 'https://t.me/KaiZo DraGon'; 
 const kapanbotaktif = 'KETIKA HANYA DIAKTIFKAN'; 
-const youtube = 'https://www.youtube.com/c/reuz_id';
+const youtube = 'https://www.youtube.com/c/KaiZo.ComeBacK';
 //const grupch1 = 'belum ada grup'; 
 //const grupch2 = 'belum ada grup' ; 
 const
@@ -68,7 +68,7 @@ conn.on('user-presence-update', json => console.log(json.id + ' presence is => '
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@reuz.id`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@hell0danial._`)
 })
 
 conn.on('message-new', async(m) =>
